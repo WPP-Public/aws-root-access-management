@@ -25,21 +25,21 @@ Dry run mode is also available using the param `--dry-run`
 
 ### AWS cloudshell
 ```bash
-git clone https://github.com/aleach/aws-root-access-management.git root-account-management
+git clone https://github.com/WPP-Public/aws-root-access-management.git root-account-management
 cd root-account-management
 python3 ./main.py
 ```
 
 ### Local - aws-vault
 ```bash
-git clone https://github.com/aleach/aws-root-access-management.git root-account-management
+git clone https://github.com/WPP-Public/aws-root-access-management.git root-account-management
 cd root-account-management
 aws-vault exec <insert-management-profile> -- python3 ./main.py
 ```
 
 ### Local - aws cli
 ```bash
-git clone https://github.com/aleach/aws-root-access-management.git root-account-management
+git clone https://github.com/WPP-Public/aws-root-access-management.git root-account-management
 cd root-account-management
 python3 ./main.py
 ```
